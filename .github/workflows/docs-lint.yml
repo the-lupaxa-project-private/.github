@@ -1,0 +1,20 @@
+name: Documentation Lint (Markdown + YAML)
+
+on:
+  push:
+    branches:
+      - "**"          # run on any branch push
+  pull_request:       # run on PRs
+  workflow_dispatch:  # add a Run Workflow button
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    uses: the-lupaxa-project/.github/.github/workflows/reusable-docs-lint.yml@master
+    secrets: inherit

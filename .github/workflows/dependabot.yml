@@ -1,0 +1,17 @@
+name: Dependabot Automation (Approve, Comment, Merge)
+
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  dependabot-auto-merge:
+    uses: the-lupaxa-project/.github/.github/workflows/reusable-dependabot.yml@master
+    secrets: inherit

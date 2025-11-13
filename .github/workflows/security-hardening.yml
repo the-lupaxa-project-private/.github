@@ -1,0 +1,25 @@
+name: Security Hardening (Ensure SHA-Pinned Actions)
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/*.yml"
+      - ".github/workflows/*.yaml"
+  push:
+    branches:
+      - "**"
+    paths:
+      - ".github/workflows/*.yml"
+      - ".github/workflows/*.yaml"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  ensure-sha-pinned:
+    uses: the-lupaxa-project/.github/.github/workflows/reusable-ensure-sha-pinned-actions.yml@master
