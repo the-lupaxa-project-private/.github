@@ -30,5 +30,5 @@ This organisation forms part of **The Lupaxa Project** ecosystem and exists to s
 Where appropriate, tooling developed here may later be released through one of the public organisations once it is suitable for general use.
 
 <a href="https://github.com/the-lupaxa-project">
-    <img src="https://raw.githubusercontent.com/the-lupaxa-project/brand-assets/master/logos/components/footer-for-child-orgs.svg" alt="The Lupaxa Project Footer" width="100%" />
+    <img src="https://raw.githubusercontent.com/the-lupaxa-project/brand-assets/master/logos/components/footer-for-child-orgs-private.svg" alt="The Lupaxa Project Footer" width="100%" />
 </a>
