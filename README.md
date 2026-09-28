@@ -13,5 +13,5 @@ It may contain the organisation profile, issue templates, pull request templates
 Project source code, reusable workflows, repository templates and other shared resources are maintained in their own dedicated repositories.
 
 <a href="https://github.com/the-lupaxa-project">
-    <img src="https://raw.githubusercontent.com/the-lupaxa-project/brand-assets/master/logos/components/footer-for-child-orgs.svg" alt="The Lupaxa Project Footer" width="100%" />
+    <img src="https://raw.githubusercontent.com/the-lupaxa-project/brand-assets/master/logos/components/footer-for-child-orgs-private.svg" alt="The Lupaxa Project Footer" width="100%" />
 </a>

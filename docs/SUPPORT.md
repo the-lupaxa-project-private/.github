@@ -24,5 +24,5 @@ Repository-specific exceptions or additional guidance, where applicable, should 
 [1]: https://github.com/the-lupaxa-project/.github/blob/master/docs/SUPPORT.md
 
 <a href="https://github.com/the-lupaxa-project">
-    <img src="https://raw.githubusercontent.com/the-lupaxa-project/brand-assets/master/logos/components/footer-for-child-orgs.svg" alt="The Lupaxa Project Footer" width="100%" />
+    <img src="https://raw.githubusercontent.com/the-lupaxa-project/brand-assets/master/logos/components/footer-for-child-orgs-private.svg" alt="The Lupaxa Project Footer" width="100%" />
 </a>
